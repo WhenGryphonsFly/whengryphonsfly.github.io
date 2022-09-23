@@ -9,11 +9,24 @@ body {
 h1, h2, h3 {
     line-height: 1.2
 }
-table, th, td {
-    border: 1px solid #454545
+table {
+    border: 1px solid #454545;
+    counter-set: rownum -1;
+}
+tr {
+    counter-increment: rownum;
+}
+th, td {
+    border: 1px solid #454545;
 }
 td:empty {
     visibility: hidden;
+}
+td:first-child::before {
+    content: counter(rownum);
+    display: inline;
+    text-align: center;
+    display: block;
 }
 
 .progressAlpha {
