@@ -1,0 +1,44 @@
+body {
+    line-height: 1.4;
+    font-size: 18px;
+    color: #444;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+h1, h2, h3 {
+    line-height: 1.2
+}
+table, th, td {
+    border: 1px solid #454545
+}
+td:empty {
+    visibility: hidden;
+}
+
+.progressAlpha {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+.progressBeta {
+    text-align: left;
+    margin: 2px auto;
+    font-size: 0px;
+    line-height: 0px;
+    border: 1px solid #AAAAAA;
+    background: #DDDDDD;
+    overflow: hidden;
+}
+.progressGamma {
+    font-size: 0px;
+    line-height: 0px;
+    height: 3px;
+    min-width: 0%;
+    max-width: 100%;
+    background: #1D3D8D;
+}
+.progressDelta {
+    font-size: 8pt;
+    font-family: monospace;
+}
