@@ -22,7 +22,8 @@ th, td {
 td:empty {
     visibility: hidden;
 }
-td:first-child::before {
+
+.indexTable td:first-child::before {
     content: counter(rownum);
     display: inline;
     text-align: center;
