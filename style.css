@@ -1,7 +1,7 @@
 body {
     line-height: 1.4;
     font-size: 18px;
-    color: #444;
+    color: #454545;
     padding: 20px;
     margin: auto;
     width: 90%;
@@ -22,7 +22,6 @@ th, td {
 td:empty {
     visibility: hidden;
 }
-
 .indexTable td:first-child::before {
     content: counter(rownum);
     display: inline;
@@ -55,4 +54,8 @@ td:empty {
 .progressDelta {
     font-size: 8pt;
     font-family: monospace;
+}
+
+.boxed {
+    border: 1px solid #454545;
 }
