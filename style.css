@@ -1,3 +1,4 @@
+/* Main */
 body {
     line-height: 1.4;
     font-size: 18px;
@@ -9,6 +10,8 @@ body {
 h1, h2, h3 {
     line-height: 1.2
 }
+
+/* Tables */
 table {
     border: 1px solid #454545;
     counter-set: rownum -1;
@@ -29,6 +32,12 @@ td:empty {
     display: block;
 }
 
+/* Small details */
+select {
+    overflow: auto;
+}
+
+/* Progress Bars */
 .progressAlpha {
     margin: auto;
     text-align: center;
@@ -56,6 +65,10 @@ td:empty {
     font-family: monospace;
 }
 
+/* Other styles */
 .boxed {
     border: 1px solid #454545;
+}
+.framed {
+    width: 100%;
 }
