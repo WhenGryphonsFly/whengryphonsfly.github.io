@@ -72,3 +72,6 @@ select {
 .framed {
     width: 100%;
 }
+.hidden {
+    display: none;
+}
