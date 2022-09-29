@@ -1,0 +1,12 @@
+body {
+    line-height: 1.4;
+    font-size: 18px;
+    color: #454545;
+    padding: 20px;
+    margin: auto;
+    width: 90%;
+}
+h1, h2, h3 {
+    line-height: 1.2
+}
+
