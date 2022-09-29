@@ -43,3 +43,19 @@ h1, h2, h3 {
         margin-left: 40px;
     }
 }
+
+.columnA {
+    float: left;
+    width: 150px;
+}
+
+.columnB {
+    float: left;
+    width: 100%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
