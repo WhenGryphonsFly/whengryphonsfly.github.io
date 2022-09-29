@@ -8,15 +8,15 @@
     </head>
 
     <body>
-        <div class="row">
-            <div class="columnA">
+        <div class="row" style="display: flex;">
+            <div class="column">
                 <select size="3" id="left-column" style="overflow:auto;">
                     <option value="0" selected="selected">Natural Feature Tracking Objects</option>
                     <option value="1">AR Models</option>
                     <option value="2">Events</option>
                 </select>
             </div>
-            <div class="columnB">
+            <div class="column" style="display: flex;">
                 <iframe id="nft-objects" src="https://whengryphonsfly.github.io/test/rgTests/boxes.html" style="width:100%; height:700px;"></iframe>
                 <iframe id="ar-models" src="https://archive.org" style="width:100%; height:700px;" hidden></iframe>
                 <iframe id="events" src="https://www.wikipedia.org" style="width:100%; height:700px;" hidden></iframe>

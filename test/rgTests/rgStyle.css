@@ -44,14 +44,9 @@ h1, h2, h3 {
     }
 }
 
-.columnA {
+.column {
     float: left;
-    width: 150px;
-}
-
-.columnB {
-    float: left;
-    width: 50%;
+    width: auto;
 }
 
 .row:after {
