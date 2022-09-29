@@ -64,8 +64,3 @@ select {
     font-size: 8pt;
     font-family: monospace;
 }
-
-/* Other styles */
-.hidden {
-    display: none;
-}
