@@ -51,7 +51,7 @@ h1, h2, h3 {
 
 .columnB {
     float: left;
-    width: auto;
+    width: 100%;
 }
 
 .row:after {
