@@ -44,7 +44,12 @@ h1, h2, h3 {
     }
 }
 
-.column {
+.columnA {
+    float: left;
+    width: auto;
+}
+
+.columnB {
     float: left;
     width: auto;
 }
