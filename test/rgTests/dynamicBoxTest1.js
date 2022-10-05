@@ -1,6 +1,6 @@
 window.addEventListener("DOMContentLoaded", async ()=>{
 	console.log("Event listener fired");
-	const response = await fetch("https://whengryphonsfly.github.io/test/rgTests/dynamicBoxTest1.json");
+	/*const response = await fetch("https://whengryphonsfly.github.io/test/rgTests/dynamicBoxTest1.json");
 	console.log("Event listener obtained JSON");
 	
 	if (!response.ok) {
@@ -17,12 +17,12 @@ window.addEventListener("DOMContentLoaded", async ()=>{
 	
 	console.log("JSON obtained successfully");
 	for (threeDEvent in data.body.events) {
-		makeTableEntry(threeDEvent);
+		makeTableEntry(threeDEvent);*/
 	}
 	
 });
 
-function makeTableEntry(data) {
+/*function makeTableEntry(data) {
 	console.log("makeTableEntry called");
 	const tableEntryList = document.getElementById("boxList");
 	const tableEntry = document.createElement("li");
@@ -34,4 +34,4 @@ function makeTableEntry(data) {
 	
 	tableEntry.innerHTML += "Test Body"; // TODO possible security vulnerability
 	tableEntryList.appendChild(tableEntry);
-}
+}*/
