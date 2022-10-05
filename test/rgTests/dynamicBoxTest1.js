@@ -13,8 +13,8 @@ window.addEventListener("DOMContentLoaded", async ()=>{
 		return;
 	}
 	
-	for (threeDEvent in data) {
-		makeTableEntry(threeDEvent);
+	for (let i = 0; i < data.length; i++) {
+		makeTableEntry(data[i]);
 	}
 	
 });
