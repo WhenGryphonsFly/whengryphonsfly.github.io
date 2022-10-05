@@ -1,7 +1,4 @@
-console.log("Hello, world!");
-
-/*window.addEventListener("DOMContentLoaded", async ()=>{
-	console.log("Event listener fired");
+window.addEventListener("DOMContentLoaded", async ()=>{
 	const response = await fetch("https://whengryphonsfly.github.io/test/rgTests/dynamicBoxTest1.json");
 	console.log("Event listener obtained JSON");
 	
@@ -12,19 +9,19 @@ console.log("Hello, world!");
 	
 	const data = await response.json();
 	
-	if (!data.body.events) {
+	if (!data || data.length < 1) {
 		alert("There are currently no events defined. Please define a new event.");
 		return;
 	}
 	
 	console.log("JSON obtained successfully");
-	for (threeDEvent in data.body.events) {
+	for (threeDEvent in data) {
 		makeTableEntry(threeDEvent);
 	}
 	
-});*/
+});
 
-/*function makeTableEntry(data) {
+function makeTableEntry(data) {
 	console.log("makeTableEntry called");
 	const tableEntryList = document.getElementById("boxList");
 	const tableEntry = document.createElement("li");
@@ -36,4 +33,4 @@ console.log("Hello, world!");
 	
 	tableEntry.innerHTML += "Test Body"; // TODO possible security vulnerability
 	tableEntryList.appendChild(tableEntry);
-}*/
+}
