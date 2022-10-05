@@ -22,7 +22,7 @@ window.addEventListener("DOMContentLoaded", async ()=>{
 	
 });
 
-function makeTableEntry(data): void {
+function makeTableEntry(data) {
 	console.log("makeTableEntry called");
 	const tableEntryList = document.getElementById("boxList");
 	const tableEntry = document.createElement("li");
