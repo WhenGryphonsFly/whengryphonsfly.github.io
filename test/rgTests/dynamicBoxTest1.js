@@ -17,8 +17,8 @@ window.addEventListener("DOMContentLoaded", async ()=>{
 	
 	console.log("JSON obtained successfully");
 	for (threeDEvent in data.body.events) {
-		makeTableEntry(threeDEvent);*/
-	}
+		makeTableEntry(threeDEvent);
+	}*/
 	
 });
 
