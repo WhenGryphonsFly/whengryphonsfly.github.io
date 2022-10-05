@@ -1,6 +1,8 @@
-window.addEventListener("DOMContentLoaded", async ()=>{
+console.log("Hello, world!");
+
+/*window.addEventListener("DOMContentLoaded", async ()=>{
 	console.log("Event listener fired");
-	/*const response = await fetch("https://whengryphonsfly.github.io/test/rgTests/dynamicBoxTest1.json");
+	const response = await fetch("https://whengryphonsfly.github.io/test/rgTests/dynamicBoxTest1.json");
 	console.log("Event listener obtained JSON");
 	
 	if (!response.ok) {
@@ -18,9 +20,9 @@ window.addEventListener("DOMContentLoaded", async ()=>{
 	console.log("JSON obtained successfully");
 	for (threeDEvent in data.body.events) {
 		makeTableEntry(threeDEvent);
-	}*/
+	}
 	
-});
+});*/
 
 /*function makeTableEntry(data) {
 	console.log("makeTableEntry called");
