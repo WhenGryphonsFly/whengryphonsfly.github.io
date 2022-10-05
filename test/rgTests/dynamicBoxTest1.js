@@ -23,11 +23,16 @@ function makeTableEntry(data) {
 	const tableEntryList = document.getElementById("boxList");
 	const tableEntry = document.createElement("li");
 	const tableEntryHeader = document.createElement("div");
+	const tableEntryHeaderLink = document.createElement("a");
 	
+	// Header
+	tableEntryHeaderLink.setAttribute("href", data.websiteLink);
+	tableEntryHeaderLink.textContent += data.name
+	tableEntryHeader.appendChild(tableEntryHeaderLink);
 	tableEntryHeader.setAttribute("class", "boxHeading");
-	tableEntryHeader.innerHTML += "Test Heading"; // TODO possible security vulnerability
 	tableEntry.appendChild(tableEntryHeader);
 	
+	// Body
 	tableEntry.innerHTML += "Test Body"; // TODO possible security vulnerability
 	tableEntryList.appendChild(tableEntry);
 }
