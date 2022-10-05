@@ -1,4 +1,4 @@
-window.addEventListener("DOMContentLoaded", async ()=>{
+window.addEventListener("load", async ()=>{
 	console.log("Event listener fired");
 	const response = await fetch("https://whengryphonsfly.github.io/test/rgTests/dynamicBoxTest1.json");
 	console.log("Event listener obtained JSON");
