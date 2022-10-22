@@ -2,7 +2,8 @@
 body {
     line-height: 1.4;
     font-size: 18px;
-    color: #454545;
+    color: var(--textColor);
+    background-color: var(--backgroundColor);
     padding: 20px;
     margin: auto;
     width: 90%;
@@ -13,14 +14,14 @@ h1, h2, h3 {
 
 /* Tables */
 table {
-    border: 1px solid #454545;
+    border: 1px solid var(--textColor);
     counter-set: rownum -1;
 }
 tr {
     counter-increment: rownum;
 }
 th, td {
-    border: 1px solid #454545;
+    border: 1px solid var(--textColor);
 }
 td:empty {
     visibility: hidden;
@@ -48,8 +49,8 @@ select {
     margin: 2px auto;
     font-size: 0px;
     line-height: 0px;
-    border: 1px solid #AAAAAA;
-    background: #DDDDDD;
+    border: 1px solid var(--progressColorC);
+    background: var(--progressColorB);
     overflow: hidden;
 }
 .progressGamma {
@@ -58,7 +59,7 @@ select {
     height: 3px;
     min-width: 0%;
     max-width: 100%;
-    background: #1D3D8D;
+    background: var(--progressColorA);
 }
 .progressDelta {
     font-size: 8pt;
