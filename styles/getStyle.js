@@ -1,10 +1,10 @@
-addEventListener("DOMContentLoaded", (event) => {
+(function() {
     let queryString = (new URL(document.location)).searchParams;
-    let head = document.getElementsByTagName('head')[0];
+    let head = document.getElementsByTagName("head")[0];
     if (queryString.get("dark").toLowerCase() === "true") {
-        head.append("<link rel=\"stylesheet\" href=\"https://whengryphonsfly.github.io/styles/dark.css\"");
+        head.innerHTML += "<link rel=\"stylesheet\" href=\"https://whengryphonsfly.github.io/styles/dark.css\">";
     } else {
-        head.append("<link rel=\"stylesheet\" href=\"https://whengryphonsfly.github.io/styles/light.css\"");
+        head.innerHTML += "<link rel=\"stylesheet\" href=\"https://whengryphonsfly.github.io/styles/light.css\">";
     }
-    head.append("<link rel=\"stylesheet\" href=\"https://whengryphonsfly.github.io/styles/style.css\"");
-});
+    head.innerHTML += "<link rel=\"stylesheet\" href=\"https://whengryphonsfly.github.io/styles/style.css\">";
+})();
