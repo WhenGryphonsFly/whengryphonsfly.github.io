@@ -16,6 +16,7 @@ h1, h2, h3 {
 table {
     border: 1px solid var(--textColor);
     counter-set: rownum -1;
+    width: 100%;
 }
 tr {
     counter-increment: rownum;
