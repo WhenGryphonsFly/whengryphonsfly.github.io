@@ -35,23 +35,23 @@ td:empty {
 }
 
 /* Table Cell Colors */
-.green td {
+.greenCell td {
     background-color: #C6EFCE;
     color: #006100;
 }
-.yellow td {
+.yellowCell td {
     background-color: #FFEB9C;
     color: #9C6500;
 }
-.red td {
+.redCell td {
     background-color: #FFC7CE;
     color: #9C0006;
 }
-.blue td {
+.blueCell td {
     background-color: #BFD0FF;
     color: #002570;
 }
-.gray td {
+.grayCell td {
     background-color: #D6D6D6;
     color: #353535;
 }
