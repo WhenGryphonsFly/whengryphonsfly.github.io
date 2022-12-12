@@ -34,6 +34,28 @@ td:empty {
     display: block;
 }
 
+/* Table Cell Colors */
+.green td {
+    background-color: #C6EFCE;
+    color: #006100;
+}
+.yellow td {
+    background-color: #FFEB9C;
+    color: #9C6500;
+}
+.red td {
+    background-color: #FFC7CE;
+    color: #9C0006;
+}
+.blue td {
+    background-color: #BFD0FF;
+    color: #002570;
+}
+.gray td {
+    background-color: #D6D6D6;
+    color: #353535;
+}
+
 /* Small details */
 select {
     overflow: auto;
