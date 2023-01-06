@@ -51,6 +51,10 @@ td:empty {
     background-color: #BFD0FF;
     color: #002570;
 }
+.purpleCell {
+    background-color: #D8BFFF;
+    color: #270070;
+}
 .grayCell {
     background-color: #D6D6D6;
     color: #353535;
